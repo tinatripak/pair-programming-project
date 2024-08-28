@@ -1,0 +1,84 @@
+[
+  {
+    "id": "6d9bcf05-3505-4798-a45c-ee46ef8245bc",
+    "name": "Film Cafe",
+    "address": "230 Augusta Ave, Toronto, ON M5T 2L8",
+    "phone": "647-347-1913",
+    "description": "Japanese-inspired cafe offering creative eats, drinks, and desserts - including gold-covered ice cream. Uses fresh ingredients from local farmers' markets and local small businesses.",
+    "rank": 4,
+    "image": "/images/film-cafe.jpg",
+    "pastries": [
+      {
+        "id": "6c0b541b-3854-4acf-9e7b-a8d7cab25229",
+        "name": "Chocolate Chip Nut Cookies",
+        "image": "/images/chocolate-chip-nut-cookies.jpg"
+      },
+      {
+        "id": "d44eb6f9-e06e-4e94-8d56-256557f126b1",
+        "name": "Sesame Croissants",
+        "image": "/images/sesame-croissants.jpg"
+      },
+      {
+        "id": "54ab2bbb-fc65-4f1b-9293-d4e9674129f6",
+        "name": "Sugared Alfajores",
+        "image": "/images/sugared-alfajores.jpg"
+      }
+    ],
+    "coffees": [
+      {
+        "id": "b39dd7c9-b142-4e0e-b410-4c4ef7fc25c1",
+        "name": "Vanilla Latte",
+        "image": "/images/vanilla-latte.jpg"
+      },
+      {
+        "id": "3726f29e-7cb1-4988-bddd-c8a03d9f7aa4",
+        "name": "Hazlenut Cappuccino",
+        "image": "/images/hazelnut-cappuccino.jpg"
+      },
+      {
+        "id": "b51a241d-b248-47dc-912c-4e0a44aaca1c",
+        "name": "Yozu Americano",
+        "image": "/images/yozu-americano.jpg"
+      }
+    ],
+    "instagram": "https://www.instagram.com/filmcafe.kensington/?hl=en"
+  },
+  {
+    "id": "2c2ef0ee-aa86-4667-af7e-7133214f9cf4",
+    "name": "Cocoon Coffee",
+    "address": "855 Wilson Ave, Toronto,  M3K 0A4",
+    "phone": "(416) 822-5798",
+    "description": "Inspired by the dedication and care put into a single cup of coffee, we started to dream of opening a cafe of our own. After two years of research and training, Cocoon Coffee Bar opened in 2018.",
+    "rank": 5,
+    "image": "/images/cocoon-coffee.jpg",
+    "pastries": [
+      {
+        "name": "Pain au Chocolat",
+        "image": "/images/pain-chocolat.jpg"
+      },
+      {
+        "name": "Almond Croissant",
+        "image": "/images/almond-croissant.jpg"
+      },
+      {
+        "name": "Tiramisu",
+        "image": "/images/tiramisu.jpg"
+      },
+      {
+        "name": "Blueberry Croissant",
+        "image": "/images/blueberry-croissant.jpg"
+      }
+    ],
+    "coffees": [
+      {
+        "name": "Coffee Latte",
+        "image": "/images/coffee-latte.jpg"
+      },
+      {
+        "name": "Vanilla Matcha Latte",
+        "image": "/images/vanilla-matcha-latte.jpg"
+      }
+    ],
+    "instagram": "https://www.instagram.com/cocooncoffeebar"
+  }
+]

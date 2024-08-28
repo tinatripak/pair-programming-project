@@ -22,6 +22,7 @@
   &__container {
     display: flex;
     gap: 3rem;
+    flex-wrap: wrap;
   }
   &__img {
     width: 15rem;

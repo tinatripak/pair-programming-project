@@ -1,0 +1,84 @@
+@import "../../styles/global.scss";
+
+.coffee-shop {
+  padding: 0.6rem 3rem 6rem 3rem;
+  margin-bottom: 3rem;
+
+  &__details {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+  }
+  &__name {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__logo {
+    width: 25rem;
+    height: 25rem;
+  }
+  &__description {
+    margin: 0;
+  }
+
+  &__rating {
+    margin: 0;
+    display: flex;
+  }
+
+  &__coffee {
+    &-image {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    &__pastry {
+      &-img {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+  }
+  &__products-heading {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+  }
+  &__coffees-heading {
+    font-weight: 500;
+  }
+  &__coffee {
+    height: 10rem;
+    width: 10rem;
+  }
+  &__coffees-content,
+  &__pastries-content {
+    display: flex;
+    gap: 3rem;
+  }
+  &__coffee-image {
+    height: 10rem;
+    width: 10rem;
+  }
+  &__coffee-name {
+    text-wrap: wrap;
+  }
+  &__pastry {
+    height: 10rem;
+    width: 10rem;
+  }
+  &__pastries {
+    margin-top: 6rem;
+  }
+  &__pastries-heading {
+    font-weight: 500;
+  }
+  &__pastry-image {
+    width: 10rem;
+    height: 10rem;
+  }
+  &__pastry-name {
+    text-wrap: wrap;
+  }
+}

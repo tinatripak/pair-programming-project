@@ -1,0 +1,32 @@
+@import "../../styles/global.scss";
+
+.team-member {
+  cursor: pointer;
+  &__photo {
+    width: 20rem;
+    height: 20rem;
+    vertical-align: bottom;
+  }
+  &__name {
+    margin: 0;
+    color: $brown-heading-colour;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  &__role {
+    margin: 0;
+    color: $gray-role-colour;
+    text-align: center;
+    font-weight: 300;
+  }
+  &__content {
+    border: 1px solid $brown-border-colour;
+    border-top: 0;
+    margin: 0 1rem;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const CoffeeShops = () => {
   const [coffeeShops, setCoffeeShops] = useState([]);
-  const [visibleCoffeeShops, setVisibleCoffeeShops] = useState(10);
+  const [visibleCoffeeShops, setVisibleCoffeeShops] = useState(5);
 
   const getCoffeeShops = async () => {
     try {

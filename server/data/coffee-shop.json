@@ -128,11 +128,96 @@
         "image": "/images/hazlenut-oat-latte.jpg"
       },
       {
-        "id": "",
+        "id": "79a3b448-6ae4-4a23-9a52-6b7377700499",
         "name": "Hot Tiramisu Latte",
         "image": "/images/hot-tiramisu-latte.jpg"
       }
     ],
     "instagram": "https://www.instagram.com/littlepebblesto/"
+  },
+  {
+    "id": "dcd6422a-498f-41a7-978b-856617190d45",
+    "name": "Cafe23",
+    "address": "728 Queen St W, Toronto, ON M6J 1E8",
+    "phone": "514-994-0465",
+    "description": "Surround yourself with candles, plants, and vintage artwork as you sip on our delicious coffee.",
+    "rank": 5,
+    "image": "/images/cafe23.png",
+    "features": [
+      "Secret outdoor patio",
+      "Great tea and coffee selection",
+      "Pet friendly",
+      "Breakfast"
+    ],
+    "pastries": [
+      {
+        "id": "7093d5e0-41d4-46d4-bd29-1d2d4183ad33",
+        "name": "Matcha Croissant",
+        "image": "/images/matcha-croissant.jpg"
+      },
+      {
+        "id": "2c2d9856-f06d-40f4-b1e5-11246ad28e8a",
+        "name": "Assorted Scones",
+        "image": "/images/assorted-scones.jpg"
+      }
+    ],
+    "coffees": [
+      {
+        "id": "2c2bcdcf-0b1b-481b-bdf9-8d6453ff12c2",
+        "name": "Matcha Latte",
+        "image": "/images/matcha-latte.png"
+      },
+      {
+        "id": "2364a6fa-1c68-44f0-9ed3-f59f274fc1af",
+        "name": "Vanilla Mocha",
+        "image": "/images/vanilla-mocha.jpg"
+      }
+    ],
+    "instagram": "https://www.instagram.com/cafe23coffeebar/?hl=en"
+  },
+  {
+    "id": "1b2ea276-b45c-46c6-ab42-3001b3ef8942",
+    "name": "Le Génie Bakery & Espresso",
+    "address": "382 Yonge St, first floor, Toronto, ON M5B 1S8",
+    "phone": "416-546-8578",
+    "description": "New French patisseries in Toronto, serving a modern take on French pastries.",
+    "rank": 5,
+    "image": "/images/le-genie-bakery-espresso.jpg",
+    "features": ["Breakfast", "Alternative milk"],
+    "pastries": [
+      {
+        "id": "7eaead46-87b2-487e-9a2c-6ae9f7f3d15e7eaead46-87b2-487e-9a2c-6ae9f7f3d15e",
+        "name": "Chouquettes",
+        "image": "/images/choquettes.jpg"
+      },
+      {
+        "id": "17eae7f1-b220-4e30-a850-b7188bcefc4d",
+        "name": "Strawberry Danish",
+        "image": "/images/strawberry-danish.jpg"
+      },
+      {
+        "id": "097c39be-1dc7-43be-9353-e4affe457c7f",
+        "name": "Pistachio Tart",
+        "image": "/images/pistachio-tart.jpg"
+      }
+    ],
+    "coffees": [
+      {
+        "id": "e0c44016-6449-40ae-aa46-486647293ff4",
+        "name": "Mocha Cappuccino",
+        "image": "/images/mocha-cappuccino.jpg"
+      },
+      {
+        "id": "5d941f9f-a3a1-4f51-8680-43b1aa2e8f59",
+        "name": "Oat Matcha Latte",
+        "image": "/images/oat-matcha-latte.jpg"
+      },
+      {
+        "id": "b9c03b37-1880-4b4a-9b48-f8f7e1062c1b",
+        "name": "Vanilla Cappuccino",
+        "image": ""
+      }
+    ],
+    "instagram": "https://www.instagram.com/legenieofficial/"
   }
 ]

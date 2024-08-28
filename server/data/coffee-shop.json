@@ -7,6 +7,13 @@
     "description": "Japanese-inspired cafe offering creative eats, drinks, and desserts - including gold-covered ice cream. Uses fresh ingredients from local farmers' markets and local small businesses.",
     "rank": 4,
     "image": "/images/film-cafe.jpg",
+    "features": [
+      "PET friendly",
+      "Alternative milk",
+      "Live music",
+      "Vegetarian options",
+      "Wheelchair accessible"
+    ],
     "pastries": [
       {
         "id": "6c0b541b-3854-4acf-9e7b-a8d7cab25229",
@@ -51,34 +58,81 @@
     "description": "Inspired by the dedication and care put into a single cup of coffee, we started to dream of opening a cafe of our own. After two years of research and training, Cocoon Coffee Bar opened in 2018.",
     "rank": 5,
     "image": "/images/cocoon-coffee.jpg",
+    "features": ["PET friendly", "Alternative milk"],
     "pastries": [
       {
+        "id": "cf7a9eb2-696d-4435-9970-0294bcef97a8",
         "name": "Pain au Chocolat",
         "image": "/images/pain-chocolat.jpg"
       },
       {
+        "id": "952050ff-d914-478a-92ff-f06487108414",
         "name": "Almond Croissant",
         "image": "/images/almond-croissant.jpg"
       },
       {
+        "id": "d2967030-562e-4514-968d-f84c7ef94c83",
         "name": "Tiramisu",
         "image": "/images/tiramisu.jpg"
       },
       {
+        "id": "913189d2-71d8-4902-9d4d-e15c9626e0a0",
         "name": "Blueberry Croissant",
         "image": "/images/blueberry-croissant.jpg"
       }
     ],
     "coffees": [
       {
+        "id": "00657259-1a46-47f5-ad71-ca403df8a393",
         "name": "Coffee Latte",
         "image": "/images/coffee-latte.jpg"
       },
       {
+        "id": "bb54390c-6f6f-46b3-8997-5ce3b6eab326",
         "name": "Vanilla Matcha Latte",
         "image": "/images/vanilla-matcha-latte.jpg"
       }
     ],
     "instagram": "https://www.instagram.com/cocooncoffeebar"
+  },
+  {
+    "id": "60295089-6078-47d2-b9ec-7ea29ff94c4e",
+    "name": "Little Pebbles",
+    "address": "160 Baldwin St #8, Toronto, ON M5T 3K7",
+    "phone": "647-715-1418",
+    "description": "Tiny, unassuming cafe offering coffee drinks, tea, and housemade Japanese desserts.",
+    "rank": 4,
+    "image": "/images/little-pebble.jpg",
+    "features": ["Great tea selection", "Outdoor seating", "Alternative milk"],
+    "pastries": [
+      {
+        "id": "085ebb0d-1d57-4d53-85df-45901f74a10b",
+        "name": "Coconut Mango Choux",
+        "image": "/images/coconut-mango-choux.jpg"
+      },
+      {
+        "id": "",
+        "name": "Black Sesame Croissant",
+        "image": "/images/black-sesame-croissant.jpg"
+      },
+      {
+        "id": "",
+        "name": "Red Velvet Cylinder",
+        "image": "/images/red-velvet-cylinder.jpg"
+      }
+    ],
+    "coffees": [
+      {
+        "id": "1039da59-3511-43af-9db6-636e412762e3",
+        "name": "Hazlenut Oat Latte",
+        "image": "/images/hazlenut-oat-latte.jpg"
+      },
+      {
+        "id": "",
+        "name": "Hot Tiramisu Latte",
+        "image": "/images/hot-tiramisu-latte.jpg"
+      }
+    ],
+    "instagram": "https://www.instagram.com/littlepebblesto/"
   }
 ]

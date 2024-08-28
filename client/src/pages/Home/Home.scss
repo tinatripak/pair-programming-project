@@ -1,0 +1,50 @@
+@import "../../styles/global.scss";
+
+.home {
+  height: calc(100vh - 86px);
+  display: flex;
+  position: relative;
+
+  &__banner {
+    height: calc(100vh - 86px);
+    vertical-align: bottom;
+    object-fit: cover;
+    width: 100%;
+  }
+  &__heading {
+    font-weight: 300;
+  }
+
+  &__btn {
+    display: flex;
+    gap: 1rem;
+
+    &-left {
+      background-color: $green-button-colour;
+      color: $white-colour;
+      border: none;
+      border-radius: 2rem;
+      padding: 1rem 2rem 1rem 2rem;
+    }
+    &-right {
+      background-color: transparent;
+      border: none;
+      border-radius: 2rem;
+      padding: 1rem 2rem 1rem 2rem;
+    }
+  }
+}
+
+.top-left {
+  position: absolute;
+  width: 50%;
+  top: 11rem;
+  left: 3.5rem;
+  line-height: 4.5rem;
+  font-size: 14px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-weight: 500;
+}

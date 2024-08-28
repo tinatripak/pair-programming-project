@@ -1,0 +1,9 @@
+@import "../../styles/global.scss";
+
+.not-found {
+  height: calc(100vh - 86px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

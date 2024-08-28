@@ -1,0 +1,17 @@
+@import "./partials/media";
+@import "./partials/mixins";
+body {
+  margin: 0;
+  padding: 0;
+  color: $black-colour;
+  font-family: $primary-font-family;
+}
+
+button {
+  font-family: $primary-font-family;
+  text-transform: uppercase;
+  font-weight: 300;
+  &:hover {
+    cursor: pointer;
+  }
+}

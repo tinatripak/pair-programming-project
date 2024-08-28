@@ -1,0 +1,31 @@
+@mixin display-align($display, $align-items) {
+  display: $display;
+  align-items: $align-items;
+}
+
+@mixin display-justify-style($display, $justify) {
+  display: $display;
+  justify-content: $justify;
+}
+
+@mixin display-direction($display, $flex-direction) {
+  display: $display;
+  flex-direction: $flex-direction;
+}
+
+@mixin display-justify-direction($display, $justify, $flex-direction) {
+  display: $display;
+  justify-content: $justify;
+  flex-direction: $flex-direction;
+}
+
+@mixin display-align-direction($display, $align-items, $flex-direction) {
+  display: $display;
+  align-items: $align-items;
+  flex-direction: $flex-direction;
+}
+@mixin display-align-justify($display, $align-items, $justify) {
+  display: $display;
+  align-items: $align-items;
+  justify-content: $justify;
+}

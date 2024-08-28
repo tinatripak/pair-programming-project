@@ -1,0 +1,9 @@
+@import "./styles/global.scss";
+
+a {
+  text-decoration: none;
+  color: $black-colour;
+  &.active {
+    text-decoration: underline;
+  }
+}

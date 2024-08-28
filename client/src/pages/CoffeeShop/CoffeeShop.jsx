@@ -27,29 +27,32 @@ const CoffeeShop = () => {
     <section className="coffee-shop">
       <h1 className="coffee-shop__name">{coffeeShop.name}</h1>
       <div className="coffee-shop__details">
-        <img
-          className="coffee-shop__logo"
-          src={`http://localhost:8080/public${coffeeShop.image}`}
-          alt={coffeeShop.name}
-        />
+        <div className="coffee-shop__content-details">
+          <img
+            className="coffee-shop__logo"
+            src={`http://localhost:8080/public${coffeeShop.image}`}
+            alt={coffeeShop.name}
+          />
+          <div className="coffee-shop__content">
+            <p className="coffee-shop__description">
+              Description: {coffeeShop.description}
+            </p>
 
-        <div className="coffee-shop__content">
-          <p className="coffee-shop__description">
-            Description: {coffeeShop.description}
-          </p>
+            <div className="coffee-shop__features">
+              Features:
+              {coffeeShop?.features?.map((feature, index) => (
+                <div className="coffee-shop__feature" key={index}>
+                  <p className="coffee-shop__text"> - {feature}</p>
+                </div>
+              ))}
+            </div>
 
-          <div className="coffee-shop__features">
-            Features:
-            {coffeeShop?.features?.map((feature, index) => (
-              <div className="coffee-shop__feature" key={index}>
-                <p className="coffee-shop__text"> - {feature}</p>
-              </div>
-            ))}
+            <p className="coffee-shop__phone">Phone: {coffeeShop.phone}</p>
+
+            <p className="coffee-shop__address">
+              Address: {coffeeShop.address}
+            </p>
           </div>
-
-          <p className="coffee-shop__phone">Phone: {coffeeShop.phone}</p>
-
-          <p className="coffee-shop__address">Address: {coffeeShop.address}</p>
         </div>
 
         <p className="coffee-shop__rating">

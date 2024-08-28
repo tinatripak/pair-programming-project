@@ -7,6 +7,10 @@
   &__details {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+  }
+  &__content-details {
+    display: flex;
     gap: 2rem;
   }
   &__name {
@@ -60,6 +64,7 @@
   &__coffee-image {
     height: 10rem;
     width: 10rem;
+    object-fit: cover;
   }
   &__coffee-name {
     text-wrap: wrap;
@@ -77,6 +82,7 @@
   &__pastry-image {
     width: 10rem;
     height: 10rem;
+    object-fit: cover;
   }
   &__pastry-name {
     text-wrap: wrap;

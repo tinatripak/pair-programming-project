@@ -182,7 +182,7 @@
     "phone": "416-546-8578",
     "description": "New French patisseries in Toronto, serving a modern take on French pastries.",
     "rank": 5,
-    "image": "/images/le-genie-bakery-espresso.jpg",
+    "image": "/images/le-genie-bakery.jpg",
     "features": ["Breakfast", "Alternative milk"],
     "pastries": [
       {
@@ -215,7 +215,7 @@
       {
         "id": "b9c03b37-1880-4b4a-9b48-f8f7e1062c1b",
         "name": "Vanilla Cappuccino",
-        "image": ""
+        "image": "/images/vanilla-cappuccino.jpg"
       }
     ],
     "instagram": "https://www.instagram.com/legenieofficial/"

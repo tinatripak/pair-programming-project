@@ -1,12 +1,12 @@
 @import "../../styles/global.scss";
 
 .home {
-  height: calc(100vh - 86px);
+  min-height: calc(100vh - 86px);
   display: flex;
   position: relative;
 
   &__banner {
-    height: calc(100vh - 86px);
+    min-height: calc(100vh - 86px);
     vertical-align: bottom;
     object-fit: cover;
     width: 100%;

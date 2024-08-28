@@ -1,0 +1,15 @@
+@import "../../styles/global.scss";
+
+.about {
+  &__carousel {
+    border-top: 3px solid $brown-heading-colour;
+    border-bottom: 3px solid $brown-heading-colour;
+  }
+  &__carousel-text {
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-wrap: nowrap;
+    color: $brown-heading-colour;
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../styles/global.scss";
+
+.our-story {
+  padding: 0.6rem 3rem 7rem 3rem;
+
+  @include breakpoint(tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    text-transform: uppercase;
+    color: $brown-heading-colour;
+    font-weight: 500;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+  &__text {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+    @include breakpoint(tablet) {
+      width: 60%;
+    }
+  }
+  &__image {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+
+    @include breakpoint(tablet) {
+      width: 30rem;
+      height: 30rem;
+    }
+  }
+}

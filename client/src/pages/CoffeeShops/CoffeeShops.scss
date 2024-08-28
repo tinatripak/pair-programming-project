@@ -1,0 +1,34 @@
+@import "../../styles/global.scss";
+
+.coffee-shops {
+  text-align: center;
+  font-family: $primary-font-family;
+  padding: 0.6rem 3rem;
+  height: calc(100vh - 86px);
+
+  &__heading {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  &__btn {
+    background-color: $green-footerBg-colour;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 4rem;
+  }
+}
+
+.coffee-shop {
+  &__container {
+    display: flex;
+    gap: 3rem;
+  }
+  &__img {
+    width: 15rem;
+    height: 15rem;
+    vertical-align: bottom;
+  }
+  &__name {
+    text-align: left;
+  }
+}

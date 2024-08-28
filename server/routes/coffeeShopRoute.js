@@ -48,6 +48,7 @@ router
         name: req.body.name,
         address: req.body.address,
         phone: req.body.phone,
+        features: req.body.features || [],
         description: req.body.description,
         rank: req.body.rank,
         pastries: req.body.pastries || [],
